@@ -1,0 +1,11 @@
+{
+  "name": "site-casaecia-oficial",
+  "private": true,
+  "scripts": {
+    "build": "node externalize-assets.mjs && npm run minify:html",
+    "minify:html": "node minify-html.mjs"
+  },
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0"
+  }
+}
